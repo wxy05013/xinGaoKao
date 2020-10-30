@@ -1,0 +1,233 @@
+body{
+	background-color: #333333;
+}
+header{
+	background-image: url("../img/header_bg.jpg");
+	width: 1168px;
+	height: 140.5px;
+	background-repeat: no-repeat;
+	margin-left: 210px;
+	padding-top:60px;
+}
+#headerFont{
+	font-size: 60px;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	/*颜色 水平偏移量 垂直偏移量 模糊半径*/
+	text-shadow: rgba(128,128,128,80%) 2px 2px 2px;
+	color: #06427e;
+	margin-left: 180px;
+}
+#headerfont{
+	color: #b05f45;
+
+}
+#table1{
+	/*margin-top:15px;*/
+	padding-top: 9px;
+	border-color: rgba(255,255,255,0.8);
+}
+
+.daohangChild1{
+	width: auto;
+	height: 33px;
+	margin-top: 38.5px;
+	background-color: rgba(225,225,225,0);
+	float: left;
+	border-style: solid;
+	border-left: 1px;
+	border-top: none;
+	border-bottom: none;
+	border-color: rgba(255,255,255,0.9);
+}
+.daohangChild2{
+	width: auto;
+	height: 33px;
+	margin-top: 38.5px;
+	background-color: rgba(225,225,225,0);
+	float: left;
+	border-style: solid;
+	border: none;
+	border-color: rgba(255,255,255,0.9);
+}
+nav{
+	background-color: rgba(225,225,225,0.6);
+}
+nav:active{
+	background-color: rgba(225,225,225,0.8);
+	
+} 
+header div nav a{
+	color: #a3472e;
+}
+header div nav a:hover{
+	color: red;
+}
+
+#text{
+	line-height: 2em;
+	position: relative;
+	text-align: center;
+	top: calc(50% - 2em * 1);
+	font-size: 0.8em;
+	font-family: "Arial";
+	padding: 0.15em 0.8em;
+	color: #a3472e;
+
+}
+#daohang{
+	width: 1000px;
+	height: 33px;
+	margin-top: 38.5px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+#xiaodiv{
+	border-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.8);
+	width: 0.2em;
+	height: 60px;
+}
+#maxDiv{
+	width: 1000px;
+	height: 2127px;
+}
+
+#maxMain{
+	padding-left: 210px;
+	padding-top: -200px;
+	width:1000px;
+}
+#p{
+	font-family: "Times New Roman";
+}
+
+#left_div{
+	width: 20%;
+	height: 700px;
+	float: left;
+	background-color:#ffffff;
+}
+#input1{
+	border-radius: 4px;
+	border: 1px solid #DBDBDB; 
+	width: 170px;
+	height: 25px;
+}
+.button{
+	background-color: #5e92f8;
+	border-radius: 6px;
+	width: 100px;
+	height: 25px;
+	color: #ffffff;
+	border:none;
+
+}
+
+.button2:active {
+    		box-shadow: 0 3px 3px 0 rgba(0,0,0,0.24),0 3px 3px 0 rgba(0,0,0,0.19);
+		}
+
+.center{
+	width: 60%;
+	height: 700px;
+	background-color: white;
+	float: left;
+
+}
+#right_div{
+	width: 20%;
+	height: 700px;/*乱写的，测试*/
+	float: right;		
+	background-color: #759bc9;
+	word-wrap: normal;
+}
+
+#p{
+	line-height: 2em;
+	font-family: "Book Antiqua","Times New Roman";
+	font-size: 1em;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	top: calc(50% - 5em * 1.5) /* 50% - 行高 * 总行数/2 */;
+}
+#your{
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 35px;
+}
+#city{
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 30px;
+}
+h1{
+	font-family: "Arial";
+}
+
+.fenlan{
+	column-count: 3;
+	column-gap: 1em;/*间隔*/
+	height: 150px;
+	width: 100%;
+	background-color: #ffffff;
+}
+#fenlanFont{
+	font-size: 11px;
+}
+#div1{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../img/chinatown.jpg");
+	background-size: cover;
+}
+#div2{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../img/cablecar-closeup.jpg");
+	background-size: cover;
+}
+#div3{
+	width: 100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-image: url("../img/market-street-car.jpg");
+	background-size: cover;
+}
+
+.table{
+	width:100%;
+	line-height: 25px;
+	font-family: "Arial";
+	font-size: 0.8em;
+	border-collapse: collapse;
+}
+
+
+table thead{
+	color: #ffffff;
+}
+table tbody tr:nth-child(2n){
+	background: #d8e5ff;
+}
+table thead tr:nth-child(2n+1){
+	background:#759bc9;
+}
+footer{
+	width: 1000px;
+	height: 90px;
+	margin-top:700px;
+	margin-left: 210px;
+	color: #ffffff;
+	padding-top: 20px;
+	background-color: #ebaf67;
+
+}
+
+table a:link{color:#575cf5;}
+table a:visited {color:yellow;}
+table a:hover {color:green;}
+table a:active {color:blue;} 
